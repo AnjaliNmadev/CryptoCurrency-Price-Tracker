@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #fff;
+}
+
+nav {
+  box-shadow: 5px 5px 5px 2px #aaa9a9;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+nav ul {
+  margin-left: 120px;
+}
+
+nav li {
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #ffffffea !important;
+}
+
+.nav-link:hover {
+  background-color: #6eece0;
+  border-radius: 10px;
+  color: #1d1b1b !important;
+}
+
+.dropdown {
+  border-radius: 10px;
+}
+
+.dropdown-menu {
+  background-color: #1d1b1b !important;
+}
+
+.dropdown-item {
+  text-align: center;
+  color: #f0f8ff !important;
+}
+
+.dropdown-item:hover {
+  border-radius: 10px;
+  color: #1d1b1b !important;
+  background-color: #6eece0 !important;
+}
+
+.container {
+  background: #f3f2f2;
+  border-radius: 10px;
+  margin: 110px auto auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px #0000001a;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  color: #fff;
+  background: #333;
+}
+
+.coin {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.coin img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+footer {
+  padding: 50px;
+  font-size: .9em;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+footer a:hover {
+  color: #6eece0 !important;
+}
+
+@media (width <= 890px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
+
+  nav li {
+    padding: 2px;
+    font-size: .7em;
+    font-weight: 700;
+  }
+
+  nav ul {
+    margin-left: 0;
+  }
+}
+
+@media (width <= 650px) {
+  nav ul {
+    margin-left: 10px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  .coin img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (width <= 470px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
+
+  #container {
+    background-color: #1d1b1b;
+    margin: 6px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: .5em;
+  }
+}
+/*# sourceMappingURL=index.3a01df49.css.map */

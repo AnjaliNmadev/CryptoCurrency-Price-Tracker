@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    text-align: center;
+    background-color: white;
+  }
+  
+  
+
+
+   /* header section start*/
+nav{
+ 
+  box-shadow: 5px 5px 5px 2px rgb(170, 169, 169);
+}
+.navbar-brand{
+  margin-left: 40px;
+}
+nav ul{
+  margin-left: 120px;
+  
+}
+
+
+nav li{
+
+ padding: 5px;
+ font-weight: 700;
+font-size: 1.1em;
+}
+.nav-link{
+  color: #ffffffea !important;
+}
+.nav-link:hover{
+  color: #1d1b1b !important;
+background-color:rgb(110, 236, 224);
+border-radius: 10px;
+
+}
+.dropdown{
+  border-radius: 10px;
+}
+.dropdown-menu{
+  background-color: #1d1b1b !important;
+
+}
+.dropdown-item{
+  text-align: center;
+  color: aliceblue !important;
+}
+.dropdown-item:hover{
+  color: #1d1b1b !important;
+background-color: rgb(110, 236, 224) !important;
+border-radius: 10px;
+}
+
+.container{
+  margin: auto;
+margin-top: 110px;
+  background: rgb(243, 242, 242);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #333;
+    color: white;
+  }
+  
+  .coin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .coin img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+   /* footer section start*/
+   footer{
+    padding: 50px;
+    font-size: .9em;
+    
+  }
+  .col-sm{
+    text-align: center;
+    }
+    footer a:hover{
+      color: rgb(110, 236, 224) !important;
+    }
+    
+  /* Responsive Design */
+  @media (max-width: 890px) {
+
+    .navbar-brand{
+      margin-left: 0px;
+    }
+   
+    nav li{
+    
+     padding: 2px;
+     font-weight: 700;
+    font-size: .7em;
+    }
+    nav ul{
+      margin-left: 0px;
+      
+    }
+    
+
+  }
+  @media (max-width: 650px) {
+
+    nav ul{
+      margin-left: 10px;
+      
+    }
+    th, td {
+      padding: 8px;
+    }
+    
+    .coin img {
+      width: 20px;
+      height: 20px;
+    }
+
+  }
+  @media (max-width: 470px) {
+   
+    .navbar-brand{
+      margin-left: 0;
+    }
+   #container{
+    margin-top: 350px;
+ margin: 6px;
+  background-color: #1d1b1b;
+}
+th, td {
+  padding: 8px;
+  font-size: 0.5em;
+}
+  }
+
+ 
